@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from numpy.random import normal
 from numpy.random import uniform
 from soinn import Soinn
-from esoinn import ESoinn
+from essoin_model.esoinn import ESoinn
 from random import choice
 
 # generate data
