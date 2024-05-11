@@ -2,18 +2,23 @@
 
 Проект состоит из следующих частей. Каждая часть подробно описана в markdown ячейках в следующих ноутбуках
 
-Получение признаков из аудио
-> * \mfcc\mfcc_algorithm.ipynb
+Загрузка и преобразование датасета
+> * data_preparation\get_dataframe.ipynb
 
-Обзор датасета и векторизация аудио
-> * \data_preparation\ещё не расписано
+Алгоритм получения признаков из аудио
+> * mfcc\mfcc_algorithm.ipynb
 
-Построение моделей, их сравнение
-> * сами эксперименты \experiments\
-> * сравнение моделей и выбор лучшей, кросс-валидация \models_results.ipynb
+Применение данного алгоритма к собранным данным
+> * data_preparation\mfcc_to_df.ipynb
+
+Построение и сравнение моделей 
+> * experiments\
+> * cross_validation_scores\best_models_cross_validation.ipynb
+> * models_results.ipynb
 
 Использование моделей для проверки на нахождение голоса в базе
-> * \find_threshold.ipynb
+> * threshold\find_threshold.ipynb
+> * threshold\tpr@fpr.ipynb
 
 Использование модели на реальном примере
-> * \evaluation_model.ipynb
+> * evaluation_model.ipynb
